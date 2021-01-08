@@ -60,13 +60,16 @@ namespace Szeles_Mate_szamologep.Controllers
             if (operation == "+")
             {
                 result = a + b;
-            } else if(operation == "-")
+            } 
+            else if(operation == "-")
             {
                 result = a - b;
-            } else if(operation == "×")
+            } 
+            else if(operation == "×" || operation == "*")
             {
                 result = a * b;
-            } else if(operation == "/")
+            } 
+            else if(operation == "/")
             {
                 result = a / b;
             }
