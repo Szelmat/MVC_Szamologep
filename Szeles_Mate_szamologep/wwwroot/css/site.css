@@ -79,13 +79,12 @@ input {
     background-color: #333;
     padding: 20px;
     border-radius: 20px;
-    width: 31%;
-    margin: 50px auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 50vh;
-    margin-top: 25vh;
+    /*width: 31%;*/
+    height: 60vh;
+    margin-top: 150px;
     font-family: 'Orbitron';
+    max-width:350px;
+
 }
 
 input {
@@ -94,8 +93,7 @@ input {
 }
 
 #screen {
-    min-height: 12vh;
-    max-width: 38px;
+    min-height: 100px;
     background-color: white;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -122,4 +120,16 @@ input {
 
 a {
     cursor: pointer !important;
+}
+
+input {
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#answer-row {
+    font-size: 18px;
+    border: 0px solid transparent;
+    padding: 0px;
+    padding-right: 10px;
 }
