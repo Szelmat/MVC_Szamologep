@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Számológép";
+}
+
+@using (Html.BeginForm("Equals", "Home", FormMethod.Post))
+{
+    <div class="text-center" id="calculator">
+        <div id="screen">
+            <input name="firstTypingRow" id="firstTypingRow" class="typing-row form-control" style="background-color:transparent;border:1px solid transparent;padding:0px" />
+
+            <input name="secondTypingRow" id="secondTypingRow" class="typing-row form-control" style="background-color:transparent;border:1px solid transparent;padding:0px" />
+
+            <div id="answer-row">@ViewData["Result"]</div>
+        </div>
+
+        <div id="buttons">
+            <div class="calc-row" id="row1">
+                <a class="btn btn-light btn-lg" onclick="typeNum(7);" style="cursor: pointer;">7</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(8);" style="cursor: pointer;">8</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(9);" style="cursor: pointer;">9</a>
+                <a class="btn btn-secondary btn-lg" onclick="typeSign('+');" style="cursor: pointer;">+</a>
+            </div>
+
+            <div class="calc-row" id="row2">
+                <a class="btn btn-light btn-lg" onclick="typeNum(4);" style="cursor: pointer;">4</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(5);" style="cursor: pointer;">5</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(6);" style="cursor: pointer;">6</a>
+                <a class="btn btn-secondary btn-lg" onclick="typeSign('-');" style="cursor: pointer;">-</a>
+            </div>
+
+            <div class="calc-row" id="row3">
+                <a class="btn btn-light btn-lg" onclick="typeNum(1);" style="cursor: pointer;">1</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(2);" style="cursor: pointer;">2</a>
+                <a class="btn btn-light btn-lg" onclick="typeNum(3);" style="cursor: pointer;">3</a>
+                <a class="btn btn-secondary btn-lg" onclick="typeSign('×');" style="cursor: pointer;">×</a>
+            </div>
+
+            <div class="calc-row" id="row4">
+                <a class="btn btn-light btn-lg" onclick="typeNum(0);" style="cursor: pointer;">0</a>
+                <a class="btn btn-secondary btn-lg" onclick="typeNum(',')" style="cursor: pointer;">,</a>
+                <a class="btn btn-secondary btn-lg" onclick="typeSign('/');" style="cursor: pointer;">/</a>
+                <button asp-action="Equals" type="submit" class="btn btn-primary btn-lg"> = </button>
+            </div>
+        </div>
+    </div>
+}
