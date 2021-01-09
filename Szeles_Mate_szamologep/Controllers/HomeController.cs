@@ -51,7 +51,7 @@ namespace Szeles_Mate_szamologep.Controllers
             if (firstNumParts.Length < 2)
             {
                 foreach(string op in ops) {
-                    // Nem választja el space a műveleti jelet
+                    // Ha nem választja el space a műveleti jelet
                     if (firstNum.IndexOf(op) != -1)
                     {
                         operation = op;
