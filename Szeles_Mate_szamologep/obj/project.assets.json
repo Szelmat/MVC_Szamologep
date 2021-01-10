@@ -1014,19 +1014,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mate\\.nuget\\packages\\": {}
+    "C:\\Users\\Széles Máté\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SzelesMate_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
+      "projectUniqueName": "D:\\Projects\\CS\\MVC_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
       "projectName": "Szeles_Mate_szamologep",
-      "projectPath": "C:\\Projects\\SzelesMate_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
-      "packagesPath": "C:\\Users\\Mate\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SzelesMate_Szamologep\\Szeles_Mate_szamologep\\obj\\",
+      "projectPath": "D:\\Projects\\CS\\MVC_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
+      "packagesPath": "C:\\Users\\Széles Máté\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\CS\\MVC_Szamologep\\Szeles_Mate_szamologep\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Széles Máté\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

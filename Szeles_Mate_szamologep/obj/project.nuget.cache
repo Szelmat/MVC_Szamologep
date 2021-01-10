@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BtWaEHDDEA06EYNPTpGRe26rRHOCdV4gtcziUO2fXnOGYGy7+PUHP25wJMOEUdxH7JGUIQ8kuAIqk7Yi4Mo1FQ==",
+  "dgSpecHash": "SkPAUyXunaeWajJkcnwU7IuNXdDrNnkxr1wo1IH+Wk0NbTRwEoF4K4qIvezju6u+j05Sj11bZztLFdABkjlkOQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\SzelesMate_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
+  "projectFilePath": "D:\\Projects\\CS\\MVC_Szamologep\\Szeles_Mate_szamologep\\Szeles_Mate_szamologep.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mate\\.nuget\\packages\\bootstrap\\4.5.3\\bootstrap.4.5.3.nupkg.sha512",
-    "C:\\Users\\Mate\\.nuget\\packages\\bootstrap.sass\\4.5.3\\bootstrap.sass.4.5.3.nupkg.sha512",
-    "C:\\Users\\Mate\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
-    "C:\\Users\\Mate\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+    "C:\\Users\\Széles Máté\\.nuget\\packages\\bootstrap\\4.5.3\\bootstrap.4.5.3.nupkg.sha512",
+    "C:\\Users\\Széles Máté\\.nuget\\packages\\bootstrap.sass\\4.5.3\\bootstrap.sass.4.5.3.nupkg.sha512",
+    "C:\\Users\\Széles Máté\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\Széles Máté\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
   ],
   "logs": []
 }

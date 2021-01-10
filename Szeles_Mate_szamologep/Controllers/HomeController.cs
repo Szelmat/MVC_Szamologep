@@ -55,6 +55,7 @@ namespace Szeles_Mate_szamologep.Controllers
                     if (firstNum.IndexOf(op) != -1)
                     {
                         operation = op;
+                        break;
                     }
 
                     // Nem adtunk meg műveletet
@@ -77,8 +78,19 @@ namespace Szeles_Mate_szamologep.Controllers
             }
 
             // Csak a számjegyeket és a tizedesvesszőket fogadjuk el
-            double a = Convert.ToDouble(Regex.Replace(firstNumParts[0], "[^0-9,]", ""));
-            double b = Convert.ToDouble(Regex.Replace(secondNum, "[^0-9,]", ""));
+            double a;
+            try {
+                a = Convert.ToDouble(Regex.Replace(firstNumParts[0], "[^0-9,]", ""));
+            } catch(Exception) {
+                a = 0;
+            }
+
+            double b;
+            try {
+                b = Convert.ToDouble(Regex.Replace(secondNum, "[^0-9,]", ""));
+            } catch(Exception) {
+                b = 0;
+            }
             
             double result = 0;
 
@@ -98,6 +110,10 @@ namespace Szeles_Mate_szamologep.Controllers
             else if(operation == "/")
             {
                 result = a / b;
+            }
+
+            if(Double.IsNaN(result) || Double.IsInfinity(result)) {
+                result = 0.0;
             }
 
 
